@@ -4,7 +4,7 @@
 sudo chmod -R 777 /home/ec2-user/test-option
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/aws-git
+cd /home/ec2-user/aws-option
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"
