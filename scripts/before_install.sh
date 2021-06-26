@@ -8,7 +8,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node
 
 
-DIR="/home/ec2-user/test-service"
+DIR="/home/ec2-user/test-option"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
