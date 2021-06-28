@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pkill node
-echo success kill node
+# pkill node
+# echo success kill node
