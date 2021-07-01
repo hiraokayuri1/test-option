@@ -4,7 +4,7 @@
 sudo chmod -R 777 /home/ec2-user/test-option
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/aws-option
+cd /home/ec2-user/test-option
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"
@@ -18,6 +18,6 @@ echo hello
 ls
 
 #start our node app in the background
-# nohup node dist/bundle.js
-cd node dist/bundle.js
+nohup node dist/bundle.js
+# cd node dist/bundle.js
 echo finished
