@@ -19,6 +19,5 @@ ls
 
 #start our node app in the background
 # nohup node dist/bundle.js
-npm run build:prod
-cd node dist/bundle.js
+npm run node dist/bundle.js
 echo finished
