@@ -19,5 +19,5 @@ ls
 
 #start our node app in the background
 # nohup node dist/bundle.js
-node dist/bundle.js
+node ../myapp/bin/www 
 echo finished
